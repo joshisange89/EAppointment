@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:7001/Login/Login.jsp" />
+<title>Faculty- Setup Apt.</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Faculty- Setup Apt.</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/Login/EAppointmentLogin.jsp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=type</td>
+	<td>label=Faculty</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form-username</td>
+	<td>soni.12.saha@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form-password</td>
+	<td>ITU@1234</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=loginBtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ui-id-3 &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=addSetUp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=day</td>
+	<td>label=Wednesday</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=startHour</td>
+	<td>label=09</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=endHour</td>
+	<td>label=05</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=endAmPm</td>
+	<td>label=PM</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=apptDuration</td>
+	<td>label=30</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
