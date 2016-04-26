@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+*{padding:0px;margin:0px;}
+body{padding:50px;margin:0px;font:normal 12px tahoma,geneva,sans-serif;background:#ffffff;}
+
+p{line-height:46px;margin:3px;text-align:justify;}
+
+
+.body{clear:both;width:600px;height:200px;margin-left:auto;margin-right:auto;background:#ffffff;}
+.header1{float:left;width:269px;min-height:60px;border-right:1px solid #2f2f2f;line-height:34px;padding:0px 15px 0px 15px;}
+.header2{float:left;width:270px;min-height:34px;line-height:34px;padding:0px 15px 0px 15px;}
+.formOne{float:left;width:270px;height:46px;line-height:46px;}
+.content{clear:both;width:300px;height:50px;margin-left:auto;margin-right:auto;padding:0px 50px 0px 50px;}
+.contentOne{float:left;width:100px;height:50px;line-height:50px;}
+.contentTwo{float:left;width:200px;height:20px;line-height:20px;padding:15px 0px 15px 0px;}
+.textbox{width:100px;height:20px;}
+.submit{text-align:left;}
+.submitOne{text-align:right;}
+.subsize {
+    height: 36px;
+    padding: 8px 12px;
+    width: 92px;
+}
+.subsizeOne {
+    height: 36px;
+    padding: 8px 12px;
+    width: 156px;
+    text-align:right;
+}
+.element.style {
+    height: 44px;
+    padding-bottom: 10px;
+    width: 269px;
+}
+.form-group{
+  padding: 7px 8px;
+  border-color:#6f6f6f;
+  box-shadow: none;
+}
+

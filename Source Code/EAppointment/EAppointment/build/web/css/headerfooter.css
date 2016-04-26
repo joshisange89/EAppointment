@@ -1,0 +1,87 @@
+
+/* 
+    Created on : Mar 25, 2016, 12:36:19 PM
+    Author     : Ekta Khiani
+*/
+	html,
+	body {
+		margin:0;
+		padding:0;
+		height:100%;
+		color: #252525;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		font-weight: normal;
+		line-height: 2;
+	}
+	#wrapper {
+		min-height:100%;
+		position:relative;
+	}
+	#header {
+		padding:10px;
+		background-color: #00622F;
+		height: 100px;
+	}
+	#content {
+		padding-bottom:100px; /* Height of the footer element */
+	}
+	#footer {
+		width:100%;
+		height:100px;
+		position:absolute;
+		bottom:0;
+		left:0;
+		background-color: #00622F;
+		text-align: center;
+	}	
+	
+	.header-inner {
+		margin: 0 auto;
+		padding: 0 20px;
+		width: 980px;
+	}
+	.footer-inner {
+		margin: 0 auto;
+		padding: 0 20px;
+		width: 980px;
+	}
+	
+	.footer-inner img {
+		max-height: 100px;
+		vertical-align: middle;
+	}
+	
+	.logo {
+		float: left;
+	}
+
+	.logo img {
+		max-height: 90px;
+		vertical-align: middle;
+	}
+
+	img
+	{  
+		border-style: none;
+	}
+
+	img, legend {
+		border: 0;
+	}
+
+	.logo a {
+		display: inline-block;
+		line-height: 100px;
+	}
+
+	a {
+		color: #1a74b0;
+		text-decoration: none;
+	}
+
+	a {
+		background-color: transparent;
+	}
+
+

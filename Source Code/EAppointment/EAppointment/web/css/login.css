@@ -1,0 +1,188 @@
+	
+/* 
+    Created on : Mar 25, 2016, 12:36:19 PM
+    Author     : Ekta Khiani
+*/
+	form {
+		/* Just to center the form on the page */
+		margin: 0 auto; 
+		width: 350px;
+		/* To see the outline of the form */
+		padding: 1em;
+		border: 1px solid #CCC;
+		border-radius: 1em;
+	}
+
+	form div + div {
+		margin-top: 1em;
+	}
+
+	button {
+		margin: 0;
+		padding: 0 20px;
+		vertical-align: middle;
+		border: 0;
+		font-family:Georgia!important;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 50px;
+		color: #fff;
+		-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+		text-shadow: none;
+		-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+		-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+	}
+
+	button.btn {
+		width:300px;
+		height: 50px;
+		background: #00622F;
+		margin: 0;
+		padding: 0 20px;
+		vertical-align: middle;
+		border: 0;
+		font-family: Georgia!important;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 50px;
+		color: #fff;
+		-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+		text-shadow: none;
+		-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+		-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+	}
+	button.btnEdit {
+		width:130px;
+		height: 50px;
+		background: #00622F;
+		margin: 0;
+		padding: 0 20px;
+		vertical-align: middle;
+		border: 0;
+		font-family: Georgia!important;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 50px;
+		color: #fff;
+		-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+		text-shadow: none;
+		-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+		-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+	}
+	
+	th {
+		background-color: #00622F;
+		color: white;
+	}
+	h3 {
+		font-weight: 700;
+		color: #ffffff;
+		font-size: 22px;
+		font-family:Georgia!important;
+	}
+	h4 {
+		font-weight: 700;
+		color: #00622F;
+		font-size: 16px; 
+		font-family:Georgia!important;
+	}
+	
+	input[type="checkbox"] {
+		width: 15px!important;
+		height: 15px!important; 
+	}
+	
+	input[type="text"],	
+	input[type="email"],
+	input[type="password"],	
+	select,	
+	select[multiple],
+	textArea {
+		margin: 0;
+		padding: 0 5px;
+		vertical-align: middle;
+		background: #fff;
+		border: 3px solid #fff;
+		font-family: Georgia!important;
+		font-size: 16px!important;
+		font-weight: 300!important;
+		line-height: 40px;
+		color: #888;
+		-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+		-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+		-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+	}
+	
+	input[type=text]:focus,input[type=password]:focus, input[type=email]:focus, textarea:focus, select:focus {
+		box-shadow: 0 0 5px rgb(81,238,116);
+		border: 3px solid rgb(81,238,116);
+	  }
+	
+	input {
+		width: 280px!important;
+		height: 40px;
+	}
+	select {
+		width: 300px;
+		height: 50px;
+		font-family: Georgia!important;
+		font-size: 16px!important;
+		font-weight: 300;
+		line-height: 30px;
+		color: #888;
+	} 
+	select[multiple] {
+		width: 300px;
+		height: 100px;
+		font-family:Georgia!important;
+		font-size: 16px!important;
+		font-weight: 300;
+		line-height: 30px;
+		color: #888; 
+	}
+	textArea {
+		width: 250px!important;
+		height: 100px;
+		line-height: 30px;
+	}
+
+	td { 
+		padding: 5px;
+	}
+
+	table {
+		border-collapse: collapse;
+	}
+
+	th, td {
+		text-align: center;
+		padding: 8px;
+	}
+
+	th {
+		background-color: #00622F;
+		color: white;
+	}
+	
+	div.background { 
+		background: url(../Images/appointmentBG.jpg) no-repeat; 
+		background-size:cover;
+		z-index: -1;
+	}
+	
+	form.transbox {
+		background: rgba(0, 0, 0, 0.35);
+	}
+	
+	div.transbox {
+		background: rgba(0, 0, 0, 0.05);
+	}
+	
+	div.messageDiv {
+		border-radius: 1em;
+		background: rgba(0, 0, 0, 0.35);
+	}
+	
+	span.type-button {
+		background-color: #ffffff!important;
+	}

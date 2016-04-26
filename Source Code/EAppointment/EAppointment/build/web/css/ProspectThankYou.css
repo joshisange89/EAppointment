@@ -1,0 +1,34 @@
+
+/* 
+    Created on : Mar 25, 2016, 12:36:19 PM
+    Author     : Ekta Khiani
+*/
+	form {
+		/* Just to center the form on the page */
+		margin: 0 auto;
+		width: 1000px;
+		/* To see the outline of the form */
+		padding: 1em;
+		border: 1px solid #CCC;
+		border-radius: 1em;
+	}
+
+	body.background {
+		background: url(../Images/appointmentBG.jpg) no-repeat; 
+		background-size:cover;
+		z-index: -1;
+	}
+
+	form.transbox {
+		margin: 30px;
+		background: rgba(0, 0, 0, 0.35);
+	}
+
+	
+	h3 {
+		font-weight: 700;
+		color: #ffffff;
+		font-size: 22px;
+	}
+
+	

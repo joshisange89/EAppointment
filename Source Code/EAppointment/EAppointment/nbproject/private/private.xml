@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/src/java/classes/com/web/Appointments/ConfirmAppointment.java</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/src/java/classes/com/web/Admin/EditUser.java</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/web/Appointments/ScheduleAppointment.jsp</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/web/Admin/Edit.jsp</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/web/Login/EAppointmentLogin.jsp</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/web/Appointments/ManageAppointments.jsp</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/src/java/classes/com/model/Database/QueryDatabase.java</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/src/java/classes/com/web/Admin/AddUser.java</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/web/Admin/AddUsers.jsp</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/web/Profile/ChangePassword.jsp</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/src/java/classes/com/model/EAppointment_Users/Admin.java</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/src/java/classes/com/web/Appointments/BookAppointmentForCurrentStudent.java</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/src/java/classes/com/model/EmailNotifier/JavaEmailSender.java</file>
+            <file>file:/E:/SE/FinalProject/EAppointment/EAppointment/src/java/classes/com/model/Database/InsertToDatabase.java</file>
+        </group>
+    </open-files>
+</project-private>
